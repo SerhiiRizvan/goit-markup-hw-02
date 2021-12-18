@@ -1,0 +1,16 @@
+/*  
+    font-family Roboto 400 500 700 900  
+    Raleway 700
+*/
+
+.button-input {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
+.button-input:hover,
+.button-input:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-style: none;
+}
