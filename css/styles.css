@@ -127,13 +127,10 @@ body {
 }
 
 .hero-button {
-  text-align: right;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
@@ -294,6 +291,7 @@ body {
 }
 
 /* -------------------------------ПОРТФОЛИО---------------------------- */
+/* ------------------------ ---Главный-контент------------------------- */
 /* -------------------------------Портфолио---------------------------- */
 
 .portfolio {
@@ -351,12 +349,12 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--header-text-color);
 }
 
 .projects-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--alt-text-color);
 }
