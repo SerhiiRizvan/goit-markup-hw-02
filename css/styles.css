@@ -65,7 +65,9 @@ body {
   color: var(--header-text-color);
 }
 
-.current-studio {
+.current-studio,
+.current-portfolio,
+.current-contact {
   color: #2196f3;
 }
 
@@ -124,6 +126,7 @@ body {
 }
 
 .hero-button {
+  text-align: right;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -273,7 +276,7 @@ body {
 
 .footer-mail:hover,
 .footer-mail:focus {
-  color: #2196f3;
+  color: #ffffff;
 }
 
 .footer-tel {
@@ -286,7 +289,7 @@ body {
 
 .footer-tel:hover,
 .footer-tel:focus {
-  color: #2196f3;
+  color: #ffffff;
 }
 
 /* -------------------------------ПОРТФОЛИО---------------------------- */
@@ -313,8 +316,14 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
   color: #212121;
   background-color: #f5f4fa;
+}
+
+.current-all {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .portfolio-button:hover,
