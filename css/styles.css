@@ -25,7 +25,7 @@ body {
   text-decoration: none;
 }
 
-/* ----------------------------Студия----------------------------- */
+/* ----------------------------СТУДИЯ----------------------------- */
 /* ------------------------Шапка навигация------------------------ */
 .header {
 }
@@ -188,6 +188,7 @@ body {
 /* -------------------------------Команда---------------------------- */
 
 .team {
+  background-color: #f5f4fa;
 }
 
 .team-title {
@@ -288,5 +289,64 @@ body {
   color: #2196f3;
 }
 
-/* -------------------------------Портфолио------------------------ */
-/*  */
+/* -------------------------------ПОРТФОЛИО---------------------------- */
+/* -------------------------------Портфолио---------------------------- */
+
+.portfolio {
+}
+
+/* задать скрытый заголовок */
+
+.portfolio-title {
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+/* --------------------------------Проекты------------------------------- */
+
+.projects {
+}
+
+.projects-list {
+}
+
+.projects-item {
+}
+
+.projects-link {
+}
+
+.projects-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
